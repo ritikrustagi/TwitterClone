@@ -19,7 +19,7 @@ const Chat = require('./models/chat')
 
 
 
-mongoose.connect('mongodb://localhost:27017/twitter')
+mongoose.connect('mongodb+srv://ritikrustagi:ritik27@cluster0.rod2ljb.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
     console.log("db connected");
 })
