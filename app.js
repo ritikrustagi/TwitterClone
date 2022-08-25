@@ -16,8 +16,7 @@ const socketio = require("socket.io");
 const io = socketio(server);
 const Chat = require('./models/chat')
 
-
-
+// 
 
 mongoose.connect('mongodb+srv://ritikrustagi:ritik27@cluster0.rod2ljb.mongodb.net/?retryWrites=true&w=majority')
 .then(()=>{
